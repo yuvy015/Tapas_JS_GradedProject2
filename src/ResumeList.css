@@ -1,0 +1,349 @@
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  align-items: center; /* Center items horizontally */
+}
+
+.header {
+  background-color: #d0f0c0; /* Pastel green color */
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #f7c6c7; /* Pinkish color */
+  padding: 1rem;
+  border-radius: 8px;
+  width: 25%; /* 1/4th of the page width */
+  margin-right: 2rem;
+}
+
+.sidebar h3 {
+  background-color: #e0e0e0; /* Grey background for headers */
+  padding: 0.5rem;
+  margin-top: 0;
+}
+
+.resume-details {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 75%; /* Remaining width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.resume-details h2 {
+  margin-bottom: 1rem;
+}
+
+.resume-details p {
+  margin-bottom: 0.5rem;
+}
+
+.resume-details button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.resume-details button:disabled {
+  background-color: #d3d3d3; /* Light grey color for disabled buttons */
+  cursor: not-allowed;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+
+.resume-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  border: 1px solid #000;
+  width: 800px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.resume-header {
+  text-align: center;
+  background-color: #d0f0c0;
+  padding: 10px 0;
+}
+
+.left-panel, .right-panel {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-panel {
+  width: 25%;
+  background-color: #f0e6ef;
+  padding: 10px;
+}
+
+.right-panel {
+  width: 70%;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h4 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+/* Search bar styling */
+.resume-container input {
+  width: 100%; 
+  max-width: 800px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Pagination styling */
+.pagination {
+  display: flex;
+  justify-content: space-between; /* Distribute space between buttons */
+  width: 100%;
+  max-width: 800px; /* Align with the width of the resume */
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #d3d3d3; /* Light grey color for disabled buttons */
+  cursor: not-allowed;
+}
+/* Existing CSS Code */
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  position: relative; /* To position the logout button absolutely */
+}
+
+.header {
+  background-color: #d0f0c0; /* Pastel green color */
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #f7c6c7; /* Pinkish color */
+  padding: 1rem;
+  border-radius: 8px;
+  width: 25%; /* 1/4th of the page width */
+  margin-right: 2rem;
+}
+
+.sidebar h3 {
+  background-color: #e0e0e0; /* Grey background for headers */
+  padding: 0.5rem;
+  margin-top: 0;
+}
+
+.resume-details {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 75%; /* Remaining width */
+}
+
+.resume-details h2 {
+  margin-bottom: 1rem;
+}
+
+.resume-details p {
+  margin-bottom: 0.5rem;
+}
+
+.resume-details button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.resume-details button:disabled {
+  background-color: #d3d3d3; /* Light grey color for disabled buttons */
+  cursor: not-allowed;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* New CSS Code */
+.resume-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  border: 1px solid #000;
+  width: 800px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.resume-header {
+  text-align: center;
+  background-color: #d0f0c0;
+  padding: 10px 0;
+}
+
+.left-panel, .right-panel {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-panel {
+  width: 25%;
+  background-color: #f0e6ef;
+  padding: 10px;
+}
+
+.right-panel {
+  width: 70%;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h4 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+/* New CSS for search input and navigation buttons */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items on the left and right sides */
+  width: 100%;
+  max-width: 800px; /* Match the max width of the resume */
+  margin-bottom: 20px; /* Space below the search input */
+}
+
+.search-container input {
+  flex: 1; /* Grow input to fill available space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 10px; /* Space between input and buttons */
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 5px; /* Space between buttons */
+}
+
+.search-container .prev-button {
+  background-color: #007bff; /* Previous button color */
+}
+
+.search-container .next-button {
+  background-color: #007bff; /* Next button color */
+}
+
+.search-container button:disabled {
+  background-color: #d3d3d3; /* Light grey color for disabled buttons */
+  cursor: not-allowed;
+}

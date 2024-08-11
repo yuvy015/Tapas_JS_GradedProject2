@@ -1,0 +1,49 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c0c0c0; /* Grey background */
+}
+
+/* Adjusting the login form */
+.login-form {
+  background-color: #ffff66; /* Yellow background */
+  padding: 6rem; /* Increased padding to make the form larger */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px; /* Set a larger width for the form */
+}
+
+/* Styling the inputs */
+.login-form input {
+  display: block;
+  width: 100%; 
+  margin: 1.5rem auto;
+  padding: 1rem; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.2rem; 
+}
+
+/* Styling the button */
+.login-form button {
+  width: 50%; /* Adjust button width */
+  padding: 1rem;
+  background-color: #9acd32; /* Light green color for the button */
+  border: 2px solid #000000; /* Black border */
+  border-radius: 4px;
+  color: #000; /* Black text color */
+  font-size: 1.2rem; /* Increase font size */
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a slight shadow to the button */
+}
+
+/* Styling the error message */
+.login-form .error {
+  color: red;
+  margin-top: 1.5rem;
+  font-size: 1.2rem; /* Increase font size of error message */
+}
